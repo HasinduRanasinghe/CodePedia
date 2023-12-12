@@ -1,0 +1,188 @@
+/* profile.css */
+
+/* Page Container */
+.profile-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+/* Headings */
+.Heading {
+  font-size: 34px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Form Elements */
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: medium;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Error Messages for Select Input */
+.form-group select + .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* Container */
+.profile-picture-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Profile Picture Styling */
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  background-color: #eee;
+}
+
+/* Placeholder Icon Styling */
+.profile-picture i {
+  color: #777;
+}
+
+/* Image Styling */
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Profile Picture Upload Section */
+.profile-picture-upload {
+  text-align: center;
+}
+
+/* Label and Icon Styling */
+.profile-picture-label {
+  font-size: 20px;
+  color: #0072F5;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Icon Styling (using Font Awesome icons) */
+.profile-picture-label i {
+  margin-right: 5px;
+}
+
+/* File Input Styling */
+.profile-picture-upload input[type="file"] {
+  display: none;
+}
+
+/* Optional text for image selection */
+.profile-picture-upload span {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+
+/* Centering container for Save and Delete buttons */
+.centered-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust this value to control the vertical spacing */
+}
+
+/* Save Button */
+.save-button {
+  background-color: #0072F5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.save-button:hover {
+  background-color: #0113cc;
+  cursor: pointer;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #FF0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #CC0000;
+}
+
+/* Edit Button */
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Edit Button */
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
